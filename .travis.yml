@@ -1,0 +1,32 @@
+language: node_js
+
+env:
+  global:
+      - GH_REF: github.com/SunshineHub/blog
+
+node_js:
+  - "node"
+
+before_install:
+  - rm -rf node_modules/
+
+install:
+  - npm install
+
+before_script:
+  - npm install gulp
+
+script:
+  - gulp
+
+deploy:
+  name: SunshineHub
+  email: 759715084@qq.com
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN # Set in travis-ci.org dashboard
+  target_branch: master
+  local_dir: public
+
+  on:
+    branch: master
