@@ -18,6 +18,8 @@ before_script:
 
 script:
   - gulp
+  - ls -l
+  - ls -l public
 
 deploy:
   name: SunshineHub
