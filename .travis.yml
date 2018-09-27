@@ -2,7 +2,7 @@ language: node_js
 
 env:
   global:
-      - GH_REF: github.com/SunshineHub/blog
+      - GH_REF: github.com/SunshineHub/SunshineHub.github.io
 
 node_js:
   - "node"
