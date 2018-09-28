@@ -8,6 +8,11 @@
   {% if is_home() %}page-home{% endif -%}
 {% endblock %}
 
+{% block sidebar %}
+  {{ sidebar_template.render(false) }}
+{% endblock %}
+
+
 {% block content %}
   <section id="posts" class="posts-expand">
     {% for post in page.posts %}
@@ -18,6 +23,3 @@
   {% include '_partials/pagination.swig' %}
 {% endblock %}
 
-{% block sidebar %}
-  {{ sidebar_template.render(false) }}
-{% endblock %}
