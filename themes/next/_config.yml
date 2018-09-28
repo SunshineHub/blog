@@ -103,7 +103,7 @@ menu:
 
 # Enable/Disable menu icons.
 menu_icons:
-  enable: false
+  enable: true
 
 
 # ---------------------------------------------------------------
@@ -112,9 +112,9 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-scheme: Mist
+#scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -139,7 +139,7 @@ scheme: Mist
   #Skype: skype:yourname?call|chat || skype
 
 social_icons:
-  enable: false
+  enable: true
   icons_only: false
   transition: false
 
@@ -277,7 +277,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
