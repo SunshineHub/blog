@@ -107,14 +107,14 @@ plugins: hexo-generate-feed
 
 # 用于页面 footer 的站长信息
 about:
-  info: 本站是基于 Hexo 搭建的静态资源博客，主要用于分享日常学习、生活及工作的一些心得总结，欢迎点击右下角订阅 rss。
+  info: 本站是基于 Hexo 搭建的静态资源博客，主要用于分享日常学习、生活及工作的一些心得总结。
   address: ChengDu, SiChuan Province, China
   email: wangch930610@gmail.com
 # Gitalk
 gitTalk:
   clientId: Iv1.174c680d25e7fcd0
   clientSecret: d4d5c0c94b88748a8663c393e3afaafe877281b0
-  repo: SunshineHub.github.io
+  repo: GitTalkRepository
   owner: SunshineHub
   admin: 
     - SunshineHub
