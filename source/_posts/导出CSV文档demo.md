@@ -1,7 +1,7 @@
 ---
 title: 导出CSV文档demo
 date: 2017-7-28 08:30:00
-cover: /images/git入门/20180929065330555.png
+cover: /images/导出CSV文档demo/20180929065330555.png
 subtitle: java实现csv导出模式。
 author: 
   name: WangCh
