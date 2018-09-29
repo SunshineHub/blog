@@ -114,7 +114,7 @@ about:
 gitTalk:
   clientId: da09ad49dd11e81f64de
   clientSecret: 5636e2a0155a4fac80e51e1a82a5d08b0228c816
-  repo: GitTalkRepository
+  repo: SunshineHub.github.io
   owner: SunshineHub
   admin: 
     - SunshineHub
