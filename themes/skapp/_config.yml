@@ -9,6 +9,9 @@ math:
 
   engine: mathjax
   #engine: katex
+  
+
+
 
   # hexo-rendering-pandoc (or hexo-renderer-kramed) needed to full MathJax support.
   mathjax:
@@ -92,3 +95,19 @@ hfc_favicons:
     opengraph: false
     windows: true
     yandex: false
+menu:
+  home: / 
+  archive: /archives
+  about: /about
+language: zh-cn
+
+# Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+

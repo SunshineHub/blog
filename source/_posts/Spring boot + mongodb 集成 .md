@@ -1,6 +1,11 @@
 ﻿---
 title: Spring boot + mongodb 集成
+cover: /images/1680.jpg
 date: 2018-9-28 10:36:53
+subtitle: 123
+author: 
+  name: oijok
+  link: https://github.com/Mrminfive
 tags:
  - java 
  - excel 
