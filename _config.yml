@@ -4,12 +4,12 @@
 
 # Site
 title: Wangch
-subtitle: Wangch BLOG
+subtitle: Wangch's BLOG
 # banner显示的简短介绍
-subtitle_desc: 绿蚁新醅酒 红泥小火炉
+subtitle_desc: Bug都不会写的程序员~~
 
 description: 不思量，自难忘！
-keywords: minfive, minfive blog, 前端博客, 前端, 程序员, 前端开发, 全栈开发, node.js, javascript
+keywords: blog, 前端博客, 前端, 程序员, 前端开发, 全栈开发, node.js, javascript,java,excel,poi,spring
 author: Wangch
 language: zh-cn
 timezone:
@@ -17,14 +17,18 @@ timezone:
 # 博客的favicon图标，支持本地及在线两种方式，本地请将图标放置于 themes/hexo-theme-skapp/source/img 目录下
 favicon_ico: http://oo12ugek5.bkt.clouddn.com/blog/images/favicon.ico
 # 博客的左上角logo图标，支持本地及在线两种方式
-logo: http://oo12ugek5.bkt.clouddn.com/images/logo-text-white.png
+#logo: http://oo12ugek5.bkt.clouddn.com/images/logo-text-white.png
+logo: /img/logo.png
 # 头像/二维码（用于显示在底部）二选一
-avatar: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
-# qrcode: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
+#avatar: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
+#qrcode: http://oo12ugek5.bkt.clouddn.com/images/qrcode.png
 # 文章的默认封面
 default_cover: http://oo12ugek5.bkt.clouddn.com/images/default_cover.png
 # header 的背景图
-header_cover: http://oo12ugek5.bkt.clouddn.com/blog/images/banner-bg.jpg
+#header_cover: http://oo12ugek5.bkt.clouddn.com/blog/images/banner-bg.jpg
+
+header_cover: /img/banner.jpg
+
 
 # 404 页面的背景图
 error_page_bg: http://oo12ugek5.bkt.clouddn.com/blog/images/dogs.jpg
@@ -116,7 +120,7 @@ gitTalk:
   clientSecret: 68007580cca956f08f516191134ebadd4a7a1802
   repo: SunshineHub.github.io
   owner: SunshineHub
-  admin: 
+  admin:
     - SunshineHub
 # Busuanzi
 busuanzi: true

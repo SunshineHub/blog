@@ -1,6 +1,10 @@
 ---
 title: poi大批量导入excel数据
 date: 2018-9-28 10:36:53
+subtitle: java实现导入excel数据量太大的情况下,容易导致OOM,利用poi方式读取xml实现大批量导入excel数据。
+author: 
+  name: WangCh
+  link: https://github.com/SunshineHub
 tags:
  - java 
  - excel 

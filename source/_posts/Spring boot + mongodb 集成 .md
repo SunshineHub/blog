@@ -1,11 +1,11 @@
 ﻿---
 title: Spring boot + mongodb 集成
-cover: /images/1680.jpg
+cover: /images/01.jpg
 date: 2018-9-28 10:36:53
-subtitle: 123
+subtitle: Spring boot与mongodb集成,实现增删改查。
 author: 
-  name: oijok
-  link: https://github.com/Mrminfive
+  name: WangCh
+  link: https://github.com/SunshineHub
 tags:
  - java 
  - excel 
