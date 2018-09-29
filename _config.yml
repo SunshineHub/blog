@@ -118,7 +118,7 @@ gitTalk:
   owner: SunshineHub
   admin: 
     - SunshineHub
-  # Busuanzi
+# Busuanzi
 busuanzi: true
 # Baidu statistic
 baidu_statistic: 1529564f4efaabe18cf344f9e7106d5b
