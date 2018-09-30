@@ -2,6 +2,7 @@
 title: Spring boot + mongodb 集成
 cover: /images/01.jpg
 date: 2018-9-28 10:36:53
+comments: true
 subtitle: Spring boot与mongodb集成,实现增删改查。
 author: 
   name: WangCh
