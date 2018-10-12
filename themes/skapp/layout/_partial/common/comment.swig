@@ -20,6 +20,8 @@
     </script>
 {% endif %}
 
+
+
 {% if page.comments && config.disqus_shortname %}
     <script>
         var disqus_shortname = '{{ config.disqus_shortname }}';
@@ -39,7 +41,7 @@
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
 
-{% if page.comments%}
+<!--{% if page.comments%}
     <section id="comments">
 <!--高速版，加载速度快，使用前需测试页面的兼容性-->
 		<div id="SOHUCS" sid="<%= page.title %>"></div>
@@ -58,6 +60,21 @@
 		  })()
 		</script>    
 	</section>
- {% endif %}
+ {% endif %}-->
+ 
+{% if page.comments%}
+    <section id="comments">
+	<div id="SOHUCS" sid="<%= page.title %>" ></div> 
+		<script type="text/javascript"> 
+		(function(){ 
+			var appid = 'cytQjiMgn'; 
+			var conf = 'prod_5b5da9427491baa0234422fd26ec3e5c'; 
+			var width = window.innerWidth || document.documentElement.clientWidth; 
+			if (width < 960) { 
+			window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })();
+		 </script>
+ 	</section>
+{% endif %}
+ 
 
 
