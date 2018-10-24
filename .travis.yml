@@ -5,7 +5,7 @@ env:
       - GH_REF: github.com/SunshineHub/SunshineHub.github.io
 
 node_js:
-  - "node"
+  - "10"
 
 before_install:
   - rm -rf node_modules/
