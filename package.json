@@ -24,7 +24,8 @@
     "hexo-server": "^0.3.1",
     "lunr": "github:mamboer/lunr.js",
     "moment": "^2.22.2",
-    "object-assign": "^4.1.1"
+    "object-assign": "^4.1.1",
+	"node-sass" : "4.5.3"
 	
   }
 }
